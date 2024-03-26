@@ -84,13 +84,46 @@
     <None Include="Resources\arrowRight.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\No Man Land1.jpg" />
+    <None Include="Resources\Running Across.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\No Man Land2.jpg" />
+    <None Include="Resources\Running Field.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\No Man Land3.jpg" />
+    <None Include="Resources\close.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trench fight.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\running.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\machinegunner.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grenadethrow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\explosion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coverdeath.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grandepoint.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\looking around.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jumping in.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

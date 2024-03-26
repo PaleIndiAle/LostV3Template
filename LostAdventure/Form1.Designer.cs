@@ -33,19 +33,19 @@ namespace LostAdventure
             this.option2Label = new System.Windows.Forms.Label();
             this.option1Label = new System.Windows.Forms.Label();
             this.outputLabel = new System.Windows.Forms.Label();
+            this.option3Label = new System.Windows.Forms.Label();
+            this.option4Label = new System.Windows.Forms.Label();
+            this.outputLabel2 = new System.Windows.Forms.Label();
+            this.option4Button = new System.Windows.Forms.PictureBox();
+            this.option3Button = new System.Windows.Forms.PictureBox();
             this.imageBox = new System.Windows.Forms.PictureBox();
             this.option2Button = new System.Windows.Forms.PictureBox();
             this.option1Button = new System.Windows.Forms.PictureBox();
-            this.option3Label = new System.Windows.Forms.Label();
-            this.option3Button = new System.Windows.Forms.PictureBox();
-            this.option4Label = new System.Windows.Forms.Label();
-            this.option4Button = new System.Windows.Forms.PictureBox();
-            this.outputLabel2 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.option4Button)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.option3Button)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.option2Button)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.option1Button)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.option3Button)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.option4Button)).BeginInit();
             this.SuspendLayout();
             // 
             // option2Label
@@ -78,41 +78,6 @@ namespace LostAdventure
             this.outputLabel.Size = new System.Drawing.Size(574, 59);
             this.outputLabel.TabIndex = 8;
             // 
-            // imageBox
-            // 
-            this.imageBox.BackColor = System.Drawing.Color.Transparent;
-            this.imageBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.imageBox.Location = new System.Drawing.Point(141, 91);
-            this.imageBox.Margin = new System.Windows.Forms.Padding(2);
-            this.imageBox.Name = "imageBox";
-            this.imageBox.Size = new System.Drawing.Size(377, 251);
-            this.imageBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imageBox.TabIndex = 11;
-            this.imageBox.TabStop = false;
-            this.imageBox.Visible = false;
-            // 
-            // option2Button
-            // 
-            this.option2Button.Location = new System.Drawing.Point(43, 414);
-            this.option2Button.Margin = new System.Windows.Forms.Padding(2);
-            this.option2Button.Name = "option2Button";
-            this.option2Button.Size = new System.Drawing.Size(39, 32);
-            this.option2Button.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.option2Button.TabIndex = 7;
-            this.option2Button.TabStop = false;
-            this.option2Button.Click += new System.EventHandler(this.option2Button_Click);
-            // 
-            // option1Button
-            // 
-            this.option1Button.Location = new System.Drawing.Point(43, 378);
-            this.option1Button.Margin = new System.Windows.Forms.Padding(2);
-            this.option1Button.Name = "option1Button";
-            this.option1Button.Size = new System.Drawing.Size(39, 32);
-            this.option1Button.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.option1Button.TabIndex = 6;
-            this.option1Button.TabStop = false;
-            this.option1Button.Click += new System.EventHandler(this.option1Button_Click);
-            // 
             // option3Label
             // 
             this.option3Label.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -123,17 +88,6 @@ namespace LostAdventure
             this.option3Label.Size = new System.Drawing.Size(225, 23);
             this.option3Label.TabIndex = 13;
             // 
-            // option3Button
-            // 
-            this.option3Button.Location = new System.Drawing.Point(346, 378);
-            this.option3Button.Margin = new System.Windows.Forms.Padding(2);
-            this.option3Button.Name = "option3Button";
-            this.option3Button.Size = new System.Drawing.Size(39, 32);
-            this.option3Button.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.option3Button.TabIndex = 12;
-            this.option3Button.TabStop = false;
-            this.option3Button.Click += new System.EventHandler(this.option3Button_Click_1);
-            // 
             // option4Label
             // 
             this.option4Label.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -143,17 +97,6 @@ namespace LostAdventure
             this.option4Label.Name = "option4Label";
             this.option4Label.Size = new System.Drawing.Size(225, 23);
             this.option4Label.TabIndex = 15;
-            // 
-            // option4Button
-            // 
-            this.option4Button.Location = new System.Drawing.Point(346, 414);
-            this.option4Button.Margin = new System.Windows.Forms.Padding(2);
-            this.option4Button.Name = "option4Button";
-            this.option4Button.Size = new System.Drawing.Size(39, 32);
-            this.option4Button.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.option4Button.TabIndex = 14;
-            this.option4Button.TabStop = false;
-            this.option4Button.Click += new System.EventHandler(this.option4Button_Click);
             // 
             // outputLabel2
             // 
@@ -167,6 +110,66 @@ namespace LostAdventure
             this.outputLabel2.Text = "“May we think of freedom, not as the right to do as we please but as the opportun" +
     "ity to do what is right.” — Peter Marshall";
             this.outputLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // option4Button
+            // 
+            this.option4Button.Image = global::LostAdventure.Properties.Resources.arrowRight;
+            this.option4Button.Location = new System.Drawing.Point(346, 414);
+            this.option4Button.Margin = new System.Windows.Forms.Padding(2);
+            this.option4Button.Name = "option4Button";
+            this.option4Button.Size = new System.Drawing.Size(39, 32);
+            this.option4Button.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.option4Button.TabIndex = 14;
+            this.option4Button.TabStop = false;
+            this.option4Button.Click += new System.EventHandler(this.option4Button_Click);
+            // 
+            // option3Button
+            // 
+            this.option3Button.Image = global::LostAdventure.Properties.Resources.arrowRight;
+            this.option3Button.Location = new System.Drawing.Point(346, 378);
+            this.option3Button.Margin = new System.Windows.Forms.Padding(2);
+            this.option3Button.Name = "option3Button";
+            this.option3Button.Size = new System.Drawing.Size(39, 32);
+            this.option3Button.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.option3Button.TabIndex = 12;
+            this.option3Button.TabStop = false;
+            this.option3Button.Click += new System.EventHandler(this.option3Button_Click_1);
+            // 
+            // imageBox
+            // 
+            this.imageBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.imageBox.Location = new System.Drawing.Point(141, 91);
+            this.imageBox.Margin = new System.Windows.Forms.Padding(2);
+            this.imageBox.Name = "imageBox";
+            this.imageBox.Size = new System.Drawing.Size(377, 251);
+            this.imageBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageBox.TabIndex = 11;
+            this.imageBox.TabStop = false;
+            this.imageBox.Visible = false;
+            // 
+            // option2Button
+            // 
+            this.option2Button.Image = global::LostAdventure.Properties.Resources.arrowRight;
+            this.option2Button.Location = new System.Drawing.Point(43, 414);
+            this.option2Button.Margin = new System.Windows.Forms.Padding(2);
+            this.option2Button.Name = "option2Button";
+            this.option2Button.Size = new System.Drawing.Size(39, 32);
+            this.option2Button.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.option2Button.TabIndex = 7;
+            this.option2Button.TabStop = false;
+            this.option2Button.Click += new System.EventHandler(this.option2Button_Click);
+            // 
+            // option1Button
+            // 
+            this.option1Button.Image = global::LostAdventure.Properties.Resources.arrowRight;
+            this.option1Button.Location = new System.Drawing.Point(43, 378);
+            this.option1Button.Margin = new System.Windows.Forms.Padding(2);
+            this.option1Button.Name = "option1Button";
+            this.option1Button.Size = new System.Drawing.Size(39, 32);
+            this.option1Button.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.option1Button.TabIndex = 6;
+            this.option1Button.TabStop = false;
+            this.option1Button.Click += new System.EventHandler(this.option1Button_Click);
             // 
             // Form1
             // 
@@ -189,11 +192,11 @@ namespace LostAdventure
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NocEnPasse!";
+            ((System.ComponentModel.ISupportInitialize)(this.option4Button)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.option3Button)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.option2Button)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.option1Button)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.option3Button)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.option4Button)).EndInit();
             this.ResumeLayout(false);
 
         }
